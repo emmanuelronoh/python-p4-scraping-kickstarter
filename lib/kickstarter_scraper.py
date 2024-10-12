@@ -1,7 +1,5 @@
 from bs4 import BeautifulSoup
 import ipdb
-
-
 def create_project_dict():
     html = ''
     with open('./fixtures/kickstarter.html') as file:
